@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    Timer • Projeto do 2º Módulo | Ignite Trilha ReactJS
+</h1>
+<br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Projeto
+A proposta deste projeto é entregar uma ferramenta que faz contagem de tempo para execução de tarefas.
 
-Currently, two official plugins are available:
+<br/>
+                
+Com ela, você pode definir o nome da tarefa e o tempo que deseja dedicar a ela. Ao clicar em "Começar", o contador inicia a contagem regressiva e você pode acompanhar o tempo restante para a conclusão da tarefa.                
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔖 Layout
 
-## Expanding the ESLint configuration
+ <h1 align="center">
+    <img alt="example_image" title="example_image" src="./src/assets/img-app.png" width="100%" />
+</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+ ## 🚀 Tecnologias
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [ReactJS](https://reactjs.org)
+- [Typescript](https://www.typescriptlang.org/)
+
+### 📡 Ferramentas Complementares
+
+- [Styled Components](https://styled-components.com/)
+
+<br/>
+
+## 🤔 Como posso interagir com projeto?
+- Para instalar localmente, siga os passos abaixo:
+
+<br/>
+
+```sh
+git clone https://github.com/ManuelMolina02/02-timer-project.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Após baixar o projeto, acesse o repositório via terminal e execute os seguintes comandos:
+
+```sh
+npm install 
+npm run dev
+```
+
+<br/>
+<br/>
+
+Feito com 💜 por Manuel Molina 👋 Me contate através do [LinkedIn!](https://www.linkedin.com/in/manuel-angel-berger-molina-ba08b3174/)
